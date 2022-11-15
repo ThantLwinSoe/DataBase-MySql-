@@ -1,0 +1,25 @@
+1) check the Database 
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mydb               |
+| mysql              |
+| performance_schema |
+| sys                |
+| test               |
++--------------------+
+
+
+2) wanna create DataBase name by "hello"
+
+mysql> create database hello;
+Query OK, 1 row affected (0.02 sec)
+
+
+3) use the hello database
+
+mysql> use hello;
+Database changed
